@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-image: url(imgs/blue-dynamic-gradient-background-wallpaper-backdrop-presentation_1110513-1468.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #e0e1dd;
+  width: 900px;
+  height: 530px;
+  margin: 120px auto;
+  border-radius: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 2.4rem 20rem 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  color: #102863;
+}
+
+.info-title {
+  color: #e0e1dd;
+  margin-top: 5rem;
+}
+
+.cta:first-child {
+  margin-top: 2rem;
+}
+
+.cta label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 1rem 0 1.2rem 1.2rem;
+  color: #0d1b2a;
+}
+
+.cta input {
+  width: 80%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 9px;
+  background-color: #778da9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #e0e1dd;
+  margin-bottom: 1.5rem;
+  margin-left: 1.2rem;
+}
+
+.cta button {
+  background-color: #102863;
+  color: #e0e1dd;
+  padding: 1.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 55%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #e0e1dd;
+  color: #102863;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #e0e1dd;
+  color: #102863;
+  box-shadow: inset 0 0 0 3px #102863;
+}
+
+.info-cta {
+  background-color: #102863;
+}
